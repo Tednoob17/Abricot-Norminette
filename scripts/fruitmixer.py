@@ -39,7 +39,7 @@ def get_banana_rules():
     os.system("rm -rf /tmp/fruitmixer")
     os.system("mkdir /tmp/fruitmixer")
     os.system("mkdir /tmp/fruitmixer/sources")
-    os.system("git clone git@github.com:Epitech/banana-coding-style-checker.git /tmp/fruitmixer/remote")
+    os.system("git clone git@github.com:Epitech/coding-style-checker.git /tmp/fruitmixer/remote")
     os.system("cp /tmp/fruitmixer/remote/vera/rules/*.py /tmp/fruitmixer/sources")
     os.system("rm -rf /tmp/fruitmixer/remote")
 
